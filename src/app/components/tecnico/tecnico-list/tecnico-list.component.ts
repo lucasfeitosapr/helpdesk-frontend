@@ -3,6 +3,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
 import { Tecnico } from 'app/models/tecnico';
 import { TecnicoService } from 'app/services/tecnico.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-tecnico-list',
@@ -40,5 +41,7 @@ export class TecnicoListComponent implements OnInit {
       
     });
   }
+
+
 
 }
